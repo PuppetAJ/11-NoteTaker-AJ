@@ -11,4 +11,8 @@ router.post('/notes', (req, res) => {
     res.json(note);
 });
 
+router.delete('/notes/:id', (req, res) => {
+    res.send('hello');
+})
+
 module.exports = router;
